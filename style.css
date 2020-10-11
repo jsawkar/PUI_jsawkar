@@ -1,3 +1,5 @@
+/*********Text Settings*********/
+
 h1{
     color:black;
     font-family: 'Roboto', sans-serif;
@@ -58,6 +60,7 @@ i{
 b{
     font-weight: 400;
 }
+
 /*********Header For Home Page*********/
 
 div.headerHome {
@@ -120,7 +123,6 @@ div.headerHome {
     border: .5px solid #000000;
 }
 
-
 .buttonBunCount{
     background-color: white;
     padding: 16px 32px;
@@ -139,7 +141,6 @@ div.headerHome {
     transition-duration: 0.4s;
 }
 
-
 /**********Delivery Address********/
 
 input[type=text], select{
@@ -156,8 +157,6 @@ input[type=text], select{
     padding-left: 30px;
     font-size: 16px;
 }
-
-
 
 .buttonStartOrder{
     background-color: white;
@@ -186,7 +185,6 @@ a:visited{
     transition-duration: 0.4s;
 }
 
-
 /**********Initial Image Gallery********/
 
 div.body{
@@ -212,14 +210,8 @@ div.gallery:hover {
     text-align: center;
     padding: 20px 0;
 }
-/**********
-.grid-blank{
-    background-color: rgba(0,0,0,0);
-}
-********/
 
 /**********About Us + Hosting + Contact********/
-
 
 .grid-containerAbout3 {
     display: grid;
@@ -236,27 +228,21 @@ div.gallery:hover {
     padding: 20px 0;
 }
 
-/**********Footer********/
-.footer{
-    background-color: #E5E5E5;
-    padding: 10px;
-    text-align: center;
-}
-
-
 /*********Header For Other Pages*********/
 
 div.headerOther {
     padding: 20px;
 }
 
-headerOther {
+.headerOther {
     text-align: center;
     padding: 0px;
     background-color:white;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+
+/*********Containers*********/
 
 .grid-containerHeader2{
     display: grid;
@@ -315,4 +301,11 @@ headerOther {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 10px;
+}
+
+/**********Footer********/
+.footer{
+    background-color: #E5E5E5;
+    padding: 10px;
+    text-align: center;
 }
